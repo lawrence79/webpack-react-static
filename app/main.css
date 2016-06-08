@@ -1,3 +1,4 @@
-.h1 {
-    font-size: 72px;
+.container {
+    width: 960px;
+    margin: 0 auto;
 }

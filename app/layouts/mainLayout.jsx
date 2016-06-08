@@ -3,8 +3,9 @@ import { Link } from 'react-router'
 
 class MainLayout extends React.Component {
   render() {
+
     return (
-      <div>
+      <div className="container">
         <h1>React Static Site</h1>
         <ul>
           <li><Link to="/about">About</Link></li>
@@ -12,6 +13,7 @@ class MainLayout extends React.Component {
         </ul>
         {this.props.children}
       </div>
+
     )
   }
 }

@@ -7,9 +7,13 @@ class Home extends React.Component {
   render() {
 
     return (
-      <div>
-        <LikeButton />
-        <h1 className="h1">Hello, World with Routing</h1>
+      <div className="pure-g">
+        <div className="pure-u-1-2">
+            <h2> Home</h2>
+        </div>
+        <div className="pure-u-1-2">
+            <LikeButton />
+        </div>
       </div>
     );
   }
