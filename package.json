@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --progress --colors",
     "stats": "webpack --profile --json > stats.json",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
   }
 }
