@@ -6,6 +6,9 @@ const validate = require('webpack-validator');
 // call options from ./lib
 const options = require('./lib/webpackConfig');
 
+// set babel env
+process.env.BABEL_ENV = process.env.npm_lifecycle_event;
+
 /*
 * It can be convenient to define a vendor entry based on package.json dependencies.
 * Load the file first using const pkg = require('./package.json'); and then do
